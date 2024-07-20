@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
   return (
-    <header class="bg-green-200">
-    <div class="mx-auto flex justify-between h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-      <h1 class="font-bold text-green-500 text-xl">Prayer Times </h1>
-      {/* <a class="block text-teal-600" href="#">
+    <header class="bg-blue-300">
+      <div class="mx-auto flex justify-between h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+        <h1 class="font-bold text-blue-500 text-xl">Prayer Times App</h1>
+        {/* <a class="block text-teal-600" href="#">
         <span class="sr-only">Home</span>
         <svg class="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -14,27 +14,35 @@ const Header = () => {
           />
         </svg>
       </a> */}
-  
-      <div class="flex items-center ">
-        <nav aria-label="Global" class="hidden md:block">
-          <ul class="flex items-center gap-6 text-sm">
-            <li>
-              <a class="text-black-500 transition hover:text-gray-500/75 font-bold" href="#"> About </a>
-            </li>
-  
-            <li>
-              <a class="text-black-500 transition hover:text-gray-500/75 font-bold" href="#"> Contact Us </a>
-            </li>
-  
-            
-          </ul>
-        </nav>
-  
-       
-      </div>
-    </div>
-  </header>
-  )
-}
 
-export default Header
+        <div class="flex items-center ">
+          <nav aria-label="Global" class="hidden md:block">
+            <ul class="flex items-center gap-6 text-sm">
+              <li>
+                <a
+                  class="text-black-500 transition hover:text-gray-500/75 font-bold"
+                  href="#"
+                >
+                  {" "}
+                  About{" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="text-black-500 transition hover:text-gray-500/75 font-bold"
+                  href="#"
+                >
+                  {" "}
+                  Contact Us{" "}
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
